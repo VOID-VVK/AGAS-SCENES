@@ -45,7 +45,7 @@
   "sourceBaseCommit": "563c87b91f6bf60f8fe465ddec621b36c8e189e5",
   "templateComparisonNote": "Original imported PNG bytes retain their SHA-256. Q capture preserves alpha and every visible pixel; alpha compositing normalizes hidden RGB in fully transparent pixels, so captured PNG bytes need not equal the source PNG.",
   "nonemptyAtlasSlots": 47,
-  "publicCompatibility": "As checked on 2026-11-05, APP-AGAS-CS-Public main lacks AiStyleReference and has no corresponding GitHub release; no compatible public release is claimed.",
+  "publicCompatibility": "Public APP source commit 8daa0b7c106952a42ec399882445f44d5315efec includes AiStyleReference and dual-reference preparation. No prebuilt application release is claimed.",
   "archiveScopeAudit": {
     "entries": 4,
     "pngImages": 3,
@@ -55,5 +55,32 @@
     "externalAbsolutePaths": false,
     "credentialsDetected": false,
     "gameCharactersOrRuntimeScreenshotsIncluded": false
+  },
+  "publicSourceValidation": {
+    "commit": "8daa0b7c106952a42ec399882445f44d5315efec",
+    "repository": "https://github.com/VOID-VVK/APP-AGAS-CS-Public",
+    "fixture": "Retained roundtrip project from the published package, with unchanged source image SHA-256 values.",
+    "status": "passed",
+    "actualExportImportSaveReopen": true,
+    "twoImagePreparationStyleThenTemplate": true,
+    "styleOutsideQFingerprintChecked": true,
+    "reverseAtlasPixels": [
+      768,
+      256
+    ],
+    "nonemptyAtlasSlots": 47,
+    "transparentSlot": [
+      10,
+      1
+    ],
+    "realUserPathIsolationCheck": "passed",
+    "paidGenerationCalled": false,
+    "packageArchiveChanged": false,
+    "coreTests": {
+      "passed": 1088,
+      "failed": 5,
+      "total": 1093,
+      "note": "The same five failures were reproduced on the pre-change source baseline; no new failures."
+    }
   }
 }
