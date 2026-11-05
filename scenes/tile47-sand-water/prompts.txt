@@ -1,0 +1,20 @@
+[固定规则｜双图角色]
+Two separate reference images are supplied. The already-painted image with complete surface textures, color variation and rendered detail is the STYLE REFERENCE (first attachment). Use its visual style as specified in the editable style description below, without copying its composition, crop, aspect ratio or terrain arrangement. The image consisting only of flat bright pink occupancy shapes against a black background, with no rendered texture, right-angle stepped edges and black square inner holes, is the TILE47 LAYOUT TEMPLATE (second attachment). Identify each image by its visual properties as well as its role. The template alone determines structure. Apply the style to the template and return only the finished painted template, never a collage.
+
+[可修改｜画风描述]
+Match the provided pixel-art reference: orange/yellow sandy ground surrounded by cyan/blue water, crisp pixelated terrain edges, small repeating surface details, stepped shoreline highlights and overhead lighting. Preserve its palette relationships, pixel scale and detail density.
+
+[固定规则｜布局与占形]
+The black-background, bright-pink TILE47 LAYOUT TEMPLATE is the occupancy/layout guide. Follow it strictly. Return the same sheet fully painted at exactly 1024x512 pixels with the same layout. Pink/colored occupied shapes define region A. Black, transparent, and empty areas define region B. Fill region A with Material A and region B with Material B as defined in the separate editable material descriptions. Preserve the exact stepped layout, T-caps and 田-shaped inner holes; ALL inner holes remain region B. Do not grow, shrink, round or drift any shapes. Do not change which pixels belong to region A versus region B, especially on 64-pixel cell edges.
+
+[可修改｜材质 A（粉红占形）]
+Material A: orange/yellow sandy ground. Match the sandy ground palette, pixel surface pattern, edge treatment and detail density in the fully textured style reference.
+
+[可修改｜材质 B（黑色背景与内孔）]
+Material B: cyan/blue water. Match the water palette, surface pattern and shoreline highlights in the fully textured style reference. Use this material in all background regions and all internal holes.
+
+[固定规则｜无缝拼接]
+This is a seamless tileset with 64x64 pixel cells. Neighboring cells must connect. On every shared cell edge, preserve the region A/B assignment from the black-and-pink layout template and match the corresponding material, texture and color across neighboring cells so tiles join seamlessly.
+
+[固定规则｜画面与输出]
+Top-down 2D game art with overhead lighting, following the editable style description and material descriptions above. Render finished textures rather than flat guide-color fills. No thick dark outlines, leftover pink guide colors, unpainted areas, grid lines, numbers, labels or text. Not photorealistic, not 3D. Fully opaque. Output exactly 1024x512 pixels, matching only the layout template dimensions, irrespective of the style reference size. Output the finished template only.

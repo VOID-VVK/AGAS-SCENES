@@ -1,0 +1,59 @@
+{
+  "verifiedAtUtc": "2026-11-05T13:31:06.6620980Z",
+  "status": "passed",
+  "sceneName": "Tile47-双图风格参考",
+  "packageFile": "tile47-sand-water-v1.zip",
+  "packageSha256": "d0c38a0f1c585593a024d6f71cada1a2ab99ae50dc1050b58d3f959ade1345d4",
+  "originalSceneUnchanged": true,
+  "originalProjectUnchanged": true,
+  "originalImagesUnchanged": true,
+  "layers": 3,
+  "images": 3,
+  "promptFragments": 7,
+  "shippedTile47Tools": 2,
+  "actualExport": "ScenePackageStore.Export",
+  "actualImport": "MainWorkspace ScenePackageImportDialog.FileSelected",
+  "savedAndReopened": true,
+  "styleRolePreserved": true,
+  "activeResultLayerPreserved": true,
+  "referenceOrder": [
+    "style",
+    "layout-template"
+  ],
+  "outputPixels": [
+    1024,
+    512
+  ],
+  "templateVisiblePixelsAndAlphaUnchanged": true,
+  "styleOutsideQFingerprintChecked": true,
+  "importedReverseToolOutputPixels": [
+    768,
+    256
+  ],
+  "transparentSlot": [
+    10,
+    1
+  ],
+  "sourceImageSha256": [
+    "761af297cb714f3a0a3c7d055b3e75cdaa7adb89ed8d28d1a80aab0b087fddfd",
+    "2648c1e4a5a7b12bbb5c70ad75b7395c0c75510a7585b536d487990969ff585f",
+    "7499129ade237d37d4078c0a4736c687d914ec7480300c210c6e9acbeff2074c"
+  ],
+  "paidGenerationCalled": false,
+  "publicationOnlyAdjustment": "Set result layer Shared=true on the in-memory export copy to include the existing generated image.",
+  "runtime": "Godot 4.6.1 Mono; local AGAS development build with unpublished dual-reference changes",
+  "sourceBaseCommit": "563c87b91f6bf60f8fe465ddec621b36c8e189e5",
+  "templateComparisonNote": "Original imported PNG bytes retain their SHA-256. Q capture preserves alpha and every visible pixel; alpha compositing normalizes hidden RGB in fully transparent pixels, so captured PNG bytes need not equal the source PNG.",
+  "nonemptyAtlasSlots": 47,
+  "publicCompatibility": "As checked on 2026-11-05, APP-AGAS-CS-Public main lacks AiStyleReference and has no corresponding GitHub release; no compatible public release is claimed.",
+  "archiveScopeAudit": {
+    "entries": 4,
+    "pngImages": 3,
+    "manifestFiles": 1,
+    "tools": 2,
+    "unrelatedCustomTools": 0,
+    "externalAbsolutePaths": false,
+    "credentialsDetected": false,
+    "gameCharactersOrRuntimeScreenshotsIncluded": false
+  }
+}
